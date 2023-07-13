@@ -1,0 +1,11 @@
+public class LastDigitFinder{
+    public static int getLastDigit(int number){
+        int lastDigit=Math.abs(number)%10;
+        return lastDigit;
+    }
+    public static void main(String[] args){
+        int number=-197;
+        int lastDigit=getLastDigit(number);
+        System.out.println("LastDigit:"+ lastDigit);
+    }
+}
